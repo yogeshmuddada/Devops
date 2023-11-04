@@ -33,7 +33,7 @@ public class UserValidationTest {
 	public void testCase5()
 	{
 		UserValidation uv=new UserValidation();
-		Assert.assertEquals(true,uv.check("srinu", "srinu212345"));
+		Assert.assertEquals(true,uv.check("yogi", "yogi123"));
 	}
 
 }
